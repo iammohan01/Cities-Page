@@ -1,4 +1,4 @@
-let data = [
+export  let data = [
     {
       "city": "Abohar",
       "latitude": 30.1204,
