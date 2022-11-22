@@ -12,6 +12,7 @@
     /* for Edge */
     font-family: var(--font-poppins);
     -ms-overflow-style: none;
+    
 }
 *::-webkit-scrollbar {
     display: none;
@@ -181,6 +182,7 @@ body{
     height: 100vh;
     display: none;
     position: relative;
+   
 }
 .item{
     height: 100%;
@@ -190,6 +192,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:end;
+    min-height: 850px;
     /* border: 1px solid red; */
 
 }
