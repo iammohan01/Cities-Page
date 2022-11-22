@@ -13,6 +13,9 @@
     font-family: var(--font-poppins);
     -ms-overflow-style: none;
 }
+*::-webkit-scrollbar {
+    display: none;
+  }
 body{
     height: 100vh;
     width: 100vw;
@@ -206,6 +209,7 @@ body{
 }
 #cityName{
     font-size: 40px;
+    text-decoration: underline;
 }
 .boxView > h1 , .boxView > p{
     margin: 5px 0px;
