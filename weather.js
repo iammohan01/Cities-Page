@@ -43,11 +43,9 @@ function displayWeather(data){
 
 function changeBack(weather){
     weather = weather.toLowerCase();
-    console.log(weather);
     let key = "clearSky";
     if (weather.includes("rain")){
         key = "rain" ;
-        console.log("from rain");
     }
     else if (weather.includes("clear")){
         key = "clearSky" ;

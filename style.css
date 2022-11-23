@@ -146,6 +146,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
 }
 .resultBoxSqure > p {
     position: absolute;
@@ -154,6 +155,8 @@ body{
     bottom: 10px;
     border-radius: 15px;
     background-color: aliceblue;
+    overflow: scroll;
+    padding: 0px 10px;
     
 }
 .scrollHere{
